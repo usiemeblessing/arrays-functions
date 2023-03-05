@@ -100,8 +100,8 @@ console.log(`maximum value is ${maximumValue}`);
 // valTimesIndex([1,2,3]) // [0,2,6]
 // valTimesIndex([5,10,15]) // [0,10,30]
 
-function valTimesIndex(arrOfNumbers) {
-	return arrOfNumbers.map((val, index) => val * index);
+function valTimesIndex(arrayOfNumbers) {
+	return arrayOfNumbers.map((val, index) => val * index);
 }
 let array = [5, 6, 20];
 let multipliedArray = valTimesIndex(array);
